@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-After gem installation, run the CLI by typing 'crypto_compare' in your terminal.
+After gem installation, run the CLI by typing 'crypto-compare' in your terminal.
 
 The CLI will greet the user, display the top 10 crypto currencies by market cap, and prompt the user for their crypto currency of interest. To choose, the user can either type the crypto currency of interest's name (e.g. bitcoin), or the number that appears with it in the top 10 list.
 

@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "A Ruby CLI application to quickly get crypto currency information in various fiat currencies."
   spec.description   = "Get information on your crypto currency of interest (such as its market cap, price, and daily volume) in denominations of your chosen fiat currency, all within the command line."
-  spec.homepage      = "https://github.com/jelocodes/crypto-compare-cli"
+  spec.homepage      = "https://github.com/jelocodes/crypto-compare-gem"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

@@ -1,0 +1,1 @@
+bitcoin, ethereum, ripple, litecoin, ethereum-classic, dash, nem, iota, monero, bitconnect

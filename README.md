@@ -2,7 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/crypto_compare.svg)](https://badge.fury.io/rb/crypto_compare)
 
-CryptoCompare is a gem that allows you to quickly display information on the top 10 Crypto Currencies (by market cap) in your fiat currency of choice. It uses Uses Nokogiri and OpenURI to scrape data from http://coinmarketcap.com/, which is a complete, up-to-date list of cryptocurrency valuations in USD, ordered from highest to lowest market cap. It also uses the Ruby Money and Google Currency (which extends Ruby Money) gems to instantiate Money objects for currency conversion using data from https://www.google.com/finance/converterWelcome. 
+CryptoCompare is a gem that allows you to quickly display information on the top 10 Crypto Currencies (by market cap) in your fiat currency of choice. It uses Nokogiri and OpenURI to scrape data from http://coinmarketcap.com/, which is a complete, up-to-date list of cryptocurrency valuations in USD, ordered from highest to lowest market cap. It also uses the Ruby Money and Google Currency (which extends Ruby Money) gems to instantiate Money objects for currency conversion using data from https://www.google.com/finance/converterWelcome. 
 
 ## Installation
 

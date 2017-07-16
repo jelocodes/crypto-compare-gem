@@ -21,7 +21,7 @@ class CryptoCompare::CLI
 		puts "Please enter your crypto currency of interest (e.g. bitcoin, ethereum, dogecoin, etc.)"
 		puts "or enter the number (e.g. 1) or name (e.g. bitcoin) of a currency from the top 10 list below:"
 		CryptoCompare::CryptoCurrency.make_crypto_from_list(@s.get_list(@s.page), @s)
-		CryptoCompare::CryptoCurrency.all.each_with_index {|crypto, index| puts "#{index+1}. #{crypto.name}" if index <= 9} 
+		CryptoCompare::CryptoCurrency.all.each_with_index {|crypto, index| puts "#{index+1}. #{crypto.name}"} 
 		@crypto_currency = gets.downcase.chomp
 		@crypto_currency = @s.get_list(@s.page)[@crypto_currency.to_i-1] if @crypto_currency.to_i >= 1 
 		@data = @s.get_attributes(@crypto_currency, @s.page)

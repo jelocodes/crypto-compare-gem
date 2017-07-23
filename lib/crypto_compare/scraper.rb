@@ -4,7 +4,7 @@ class CryptoCompare::Scraper
 	attr_accessor :page
 
 	def initialize
-		@page = Nokogiri::HTML(open("http://coinmarketcap.com/"))
+		@page = Nokogiri::HTML(open("https://coinmarketcap.com/"))
 	end
 
 	def get_list(source)
